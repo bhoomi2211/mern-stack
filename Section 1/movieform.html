@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Ticket Booking</title>
+</head>
+<body>
+
+  <h2>Movie Ticket Booking Form</h2>
+
+  <form>
+    <label for="movie">Movie Name:</label><br>
+    <input type="text" id="movie" name="movie" placeholder="Enter movie name"><br><br>
+
+    <label for="date">Date:</label><br>
+    <input type="date" id="date" name="date"><br><br>
+
+    <label for="time">Time:</label><br>
+    <input type="time" id="time" name="time"><br><br>
+
+    <label for="tickets">Number of Tickets:</label><br>
+    <input type="number" id="tickets" name="tickets" min="1" max="10"><br><br>
+
+    <label for="category">Seat Category:</label><br>
+    <select id="category" name="category">
+      <option value="regular">Regular</option>
+      <option value="vip">VIP</option>
+      <option value="recliner">Recliner</option>
+    </select><br><br>
+
+    <input type="submit" value="Book Ticket">
+  </form>
+
+</body>
+</html>
